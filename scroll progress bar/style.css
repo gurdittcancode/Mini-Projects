@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    padding-top: 2rem;
+    min-height: 100vh;
+    color: #181616;
+    background-color: skyblue;
+}
+
+.navbar {
+    position: fixed;
+    top: 0; 
+    z-index: 1;
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+    color:#181616;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    box-shadow: 1px 4px 15px #18161678;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#progress-bar {
+    --progress: 50%;
+    height: 4px;
+    width: var(--progress);
+    background-color: darkblue;
+}
+
+article {
+    width: min(1000px, 100%);
+    padding-top: 4rem 2rem;
+    display: grid;
+    grid-gap: 2rem;
+    place-items: center;
+    margin: auto;
+}
+
+article > h1 {
+    margin-top: 3rem;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 5rem;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px #18161678;
+}
+
+article > div {
+    background-color: white;
+    padding: 4rem;
+    border-radius: 25px;
+}
+
+article ul {
+    margin: 1em 1.5em;
+}
+
+article h2 {
+    margin: 2rem 0 0 1rem;
+}
