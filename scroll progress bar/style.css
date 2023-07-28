@@ -39,7 +39,7 @@ nav > ul{
 }
 
 #progress-bar {
-    --progress: 50%;
+    --progress: 0%;
     height: 4px;
     width: var(--progress);
     background-color: darkblue;
